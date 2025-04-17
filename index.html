@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Ankit Dairy</title>
@@ -8,114 +9,129 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-<header class="main-header">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <header class="main-header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+            width="24px" fill="#e3e3e3">
+            <path
+              d="M640-80q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170T640-80Zm0-80q66 0 113-47t47-113q0-66-47-113t-113-47q-66 0-113 47t-47 113q0 66 47 113t113 47Zm-480 0q-33 0-56.5-23.5T80-240v-304q0-8 1.5-16t4.5-16l80-184h-6q-17 0-28.5-11.5T120-800v-40q0-17 11.5-28.5T160-880h280q17 0 28.5 11.5T480-840v40q0 17-11.5 28.5T440-760h-6l66 152q-19 10-36 21t-32 25l-84-198h-96l-92 216v304h170q5 21 13.5 41.5T364-160H160Zm480-440q-42 0-71-29t-29-71q0-42 29-71t71-29v200q0-42 29-71t71-29q42 0 71 29t29 71H640Z" />
+          </svg> Ankit Dairy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.mdd.com/wp-content/uploads/2024/05/iStock-1297005217.jpg" class="d-block w-100"
+          alt="Milk">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Welcome to Ankit Dairy</h1>
+          <p>Freshness Delivered with Love</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://iprod.mishry.com/wp-content/uploads/2020/08/best-dairy-products.png" class="d-block w-100"
+          alt="Products">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Premium Dairy Products</h1>
+          <p>Crafted with care, served with taste</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about-section">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="iconlogo.png" alt="Logo" height="40"> Ankit Dairy</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
-          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
+      <h2>About Us</h2>
+      <p>At Ankit Dairy, we believe in purity and taste. Our products are sourced from the finest farms and processed
+        under the highest hygiene standards. From fresh milk to irresistible sweets, we serve you the best of nature.
+      </p>
+      <p>We aim to deliver healthy, natural, and flavorful dairy products right to your doorstep. Sustainability and
+        customer satisfaction are our top priorities.</p>
+    </div>
+  </section>
+
+  <section id="menu" class="section menu-section">
+    <div class="container">
+      <h2>Our Menu</h2>
+      <div class="row">
+        <div class="col-md-4 menu-card">
+          <img src="https://organicshandy.com/wp-content/uploads/2019/02/Cow-Milk-470x331.webp" alt="Milk">
+          <h4>Fresh Cow Milk</h4>
+          <p>Rich in protein and calcium. Delivered fresh daily.</p>
+        </div>
+        <div class="col-md-4 menu-card">
+          <img src="https://food.unl.edu/sites/unl.edu.ianr.extension.food/files/styles/no_crop_1440/public/media/image/3-cups-of-dairy-a-day.png?itok=C6fOmpLv" alt="Products">
+          <h4>Dairy Products</h4>
+          <p>Butter, Ghee, Yogurt, Paneer and more.</p>
+        </div>
+        <div class="col-md-4 menu-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdqrHis5EGM46Ip1QnOp3jsYwuA2IuEFsomw&s" alt="Sweets">
+          <h4>Sweet Delights</h4>
+          <p>Rasgulla, Pedha, Kalakand and other mouth-watering sweets.</p>
+        </div>
       </div>
     </div>
-  </nav>
-</header>
+  </section>
 
-<section id="home" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="carousel1.jpg" class="d-block w-100" alt="Milk">
-      <div class="carousel-caption d-none d-md-block">
-        <h1>Welcome to Ankit Dairy</h1>
-        <p>Freshness Delivered with Love</p>
+  <section id="gallery" class="section gallery-section">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="row">
+        <div class="col-md-3"><img src="https://static.vecteezy.com/system/resources/previews/038/971/338/non_2x/ai-generated-modern-outdoor-cowshed-at-dairy-farm-with-herd-of-milking-holstein-cows-eating-hay-from-manger-photo.jpg" class="img-fluid" alt="Gallery"></div>
+        <div class="col-md-3"><img src="https://www.ficsi.in/blog/wp-content/uploads/2024/05/Blog-3-17.jpg" class="img-fluid" alt="Gallery"></div>
+        <div class="col-md-3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP7mXtRLaKQpvfwD69kQADd7nXQPlBQk0tVA&s" class="img-fluid" alt="Gallery"></div>
+        <div class="col-md-3"><img src="https://i.ytimg.com/vi/p_rtdPtdmAU/maxresdefault.jpg" class="img-fluid" alt="Gallery"></div>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="carousel2.jpg" class="d-block w-100" alt="Products">
-      <div class="carousel-caption d-none d-md-block">
-        <h1>Premium Dairy Products</h1>
-        <p>Crafted with care, served with taste</p>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container text-center">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+            width="24px" fill="#e3e3e3">
+            <path
+              d="M640-80q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170T640-80Zm0-80q66 0 113-47t47-113q0-66-47-113t-113-47q-66 0-113 47t-47 113q0 66 47 113t113 47Zm-480 0q-33 0-56.5-23.5T80-240v-304q0-8 1.5-16t4.5-16l80-184h-6q-17 0-28.5-11.5T120-800v-40q0-17 11.5-28.5T160-880h280q17 0 28.5 11.5T480-840v40q0 17-11.5 28.5T440-760h-6l66 152q-19 10-36 21t-32 25l-84-198h-96l-92 216v304h170q5 21 13.5 41.5T364-160H160Zm480-440q-42 0-71-29t-29-71q0-42 29-71t71-29v200q0-42 29-71t71-29q42 0 71 29t29 71H640Z" />
+          </svg><br>
+      <p>&copy; 2024 Ankit Dairy. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
       </div>
     </div>
-  </div>
-</section>
+  </footer>
 
-<section id="about" class="section about-section">
-  <div class="container">
-    <h2>About Us</h2>
-    <p>At Ankit Dairy, we believe in purity and taste. Our products are sourced from the finest farms and processed under the highest hygiene standards. From fresh milk to irresistible sweets, we serve you the best of nature.</p>
-    <p>We aim to deliver healthy, natural, and flavorful dairy products right to your doorstep. Sustainability and customer satisfaction are our top priorities.</p>
-  </div>
-</section>
-
-<section id="menu" class="section menu-section">
-  <div class="container">
-    <h2>Our Menu</h2>
-    <div class="row">
-      <div class="col-md-4 menu-card">
-        <img src="milk.jpg" alt="Milk">
-        <h4>Fresh Cow Milk</h4>
-        <p>Rich in protein and calcium. Delivered fresh daily.</p>
-      </div>
-      <div class="col-md-4 menu-card">
-        <img src="products.jpg" alt="Products">
-        <h4>Dairy Products</h4>
-        <p>Butter, Ghee, Yogurt, Paneer and more.</p>
-      </div>
-      <div class="col-md-4 menu-card">
-        <img src="sweets.jpg" alt="Sweets">
-        <h4>Sweet Delights</h4>
-        <p>Rasgulla, Pedha, Kalakand and other mouth-watering sweets.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="gallery" class="section gallery-section">
-  <div class="container">
-    <h2>Gallery</h2>
-    <div class="row">
-      <div class="col-md-3"><img src="gallery1.jpg" class="img-fluid" alt="Gallery"></div>
-      <div class="col-md-3"><img src="gallery2.jpg" class="img-fluid" alt="Gallery"></div>
-      <div class="col-md-3"><img src="gallery3.jpg" class="img-fluid" alt="Gallery"></div>
-      <div class="col-md-3"><img src="gallery4.jpg" class="img-fluid" alt="Gallery"></div>
-    </div>
-  </div>
-</section>
-
-<section id="contact" class="section contact-section">
-  <div class="container">
-    <h2>Contact Us</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" rows="4" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
-</section>
-
-<footer class="footer">
-  <div class="container text-center">
-    <img src="iconlogo.png" alt="Logo" height="50"><br>
-    <p>&copy; 2024 Ankit Dairy. All rights reserved.</p>
-    <div class="social-icons">
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-    </div>
-  </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
